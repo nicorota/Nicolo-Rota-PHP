@@ -1,0 +1,80 @@
+body {
+  background: linear-gradient(#9bb1ff, #bfd7ff);
+  min-height: 100vh;
+}
+
+nav {
+  background: #5465ff !important;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+  color: #e2fdff;
+}
+
+.navbar-brand:hover {
+  color: #bfd7ff;
+}
+
+.container_logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.container_logout > h6 {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.logout {
+  color: white;
+  text-decoration: none;
+}
+
+.container_buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  margin-bottom: 2%;
+}
+
+.button_recipe,
+.container_action_recipe > button {
+  border-radius: 5px;
+  border: 0;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.button_recipe:hover,
+.container_action_recipe > button:hover {
+  background: #bfd7ff;
+  transition: 450ms;
+}
+
+.container_recipe,
+.container_action_recipe {
+  background: #fff;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 1%;
+  padding: 20px;
+  padding-top: 0;
+  border-radius: 15px;
+}
+
+.container_action_recipe {
+  margin-bottom: 2%;
+}
+
+.container_action_recipe > input {
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  margin-top: 8px;
+  padding: 5px;
+}
